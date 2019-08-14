@@ -1,0 +1,15 @@
+#borda {
+    border: 2px solid;
+    border-color:black;  
+    width:400px;
+    height:300px; 
+    position: relative;
+    margin-left:  410px;  
+      
+  }
+  #posimg {
+    float: left;
+  }
+  #espaco {
+    padding: 25px 25px 25px 25px;
+  }

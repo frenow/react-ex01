@@ -1,19 +1,22 @@
 import React from 'react';
+import './Header.css';
 
 export const HeaderComponent = () => (
     <>
-    <h1>LOGO</h1>
-    <ul>
-    <li>
-        <a href="#">topico 1</a>
+    <div className="borda">
+    <h1 id="logo">LOGO</h1>
+    <ul className="header">
+    <li className="header">
+        <a className="header" href="#">topico 1</a>
     </li>
-    <li>
-        <a href="#">topico 2</a>
+    <li className="header">
+        <a className="header" href="#">topico 2</a>
     </li>
-    <li>
-        <a href="#">topico 3</a>
+    <li className="header">
+        <a className="header" href="#">topico 3</a>
     </li>
     </ul>
+    </div>
     </>
 )
 

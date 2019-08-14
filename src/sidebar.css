@@ -1,0 +1,10 @@
+#menuside {
+    border: 2px solid;
+    border-color:black;    
+    list-style-type: none;
+    position: fixed;
+    right: 0;
+    top: 40%;
+    width: 12em;
+    margin-top: -2.5em;
+  }

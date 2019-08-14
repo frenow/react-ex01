@@ -1,8 +1,9 @@
 import React from 'react';
+import './sidebar.css';
 
 export const SideBarComponent = () => (
     <>
-    <ul>
+    <ul id="menuside">
     <li>
         <a href="#">Sessao side 1</a>
     </li>

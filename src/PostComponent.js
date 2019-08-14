@@ -1,9 +1,12 @@
 import React from 'react';
+import './Post.css';
 
 export const PostComponent = ({postagem}) => (
     <>
-    <img src='smiley.gif' />
-    <div>{postagem}</div>
+    <div id="espaco">
+    <img id="posimg" src='smiley.gif' height="300" width="400" />
+    <div id="borda">{postagem}</div>
+    </div>
     </>
 )
 
