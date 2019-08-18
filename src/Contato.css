@@ -1,14 +1,10 @@
-#borda {
+#borda-contato {
     border: 2px solid;
     border-color:black;  
     width:400px;
     height:300px; 
     position: relative;
-    margin-left:  410px;  
-      
-  }
-  #posimg {
-    float: left;
+    margin-left:10px;  
   }
   #espaco {
     padding: 15px 15px 15px 15px;
